@@ -1,4 +1,4 @@
-module Main exposing (..)
+module Test exposing (..)
 
 import Window
 import String exposing (..)
@@ -55,11 +55,12 @@ view model =
     div []
         [ whichStyle model
         , text ("Width: " ++ toString model.windowSize.width)
+        , text ("CurSz: " ++ toString (currentSize model))
         ]
 
 
-
---  text <| toString <| computeSize model
+currentSize model =
+    model.windowSize.width
 
 
 whichStyle model =

@@ -119,7 +119,8 @@ fedPage =
         [ div [ fedPageStyle ] []
         , div [ titleStyle2 ] [ text "Fed Reggiardo" ]
         , div [ textStyle ] [ text aboutFed ]
-        , div [] [ text "MUSIC PLAYER GOES HERE!" ]
+        , div [] []
+        , iframe [ srcdoc """<iframe width="90%" height="600" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/468671&amp;color=00aabb&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>""", embedStyle ] []
         ]
 
 
@@ -128,7 +129,8 @@ ryanPage =
         [ div [ ryanPageStyle ] []
         , div [ titleStyle2 ] [ text "Ryan Wurtz" ]
         , div [ textStyle ] [ text aboutRyan ]
-        , div [] [ text "MUSIC PLAYER GOES HERE!" ]
+        , div [] []
+        , iframe [ srcdoc """<iframe width="100%" height="600" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/272842034&amp;color=00aabb&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false"></iframe>""", embedStyle ] []
         ]
 
 

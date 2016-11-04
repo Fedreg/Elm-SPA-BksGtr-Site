@@ -12,11 +12,22 @@ mainStyle =
         [ ( "textAlign", "center" )
         , ( "height", "100vh" )
         , ( "boxSizing", "border-box" )
-        , ( "fontFamily", "Roboto, sans-serif" )
+        , ( "fontFamily", "abel, sans-serif" )
         , ( "transition", "1s ease-out" )
         , ( "overflow", "auto" )
         , ( "paddingBottom", "5%" )
         ]
+
+
+mainStyleSmall =
+    [ ( "textAlign", "center" )
+    , ( "height", "100vh" )
+    , ( "boxSizing", "border-box" )
+    , ( "fontFamily", "didot, sans-serif" )
+    , ( "transition", "1s ease-out" )
+    , ( "overflow", "auto" )
+    , ( "paddingBottom", "5%" )
+    ]
 
 
 navMainStyle =
@@ -114,6 +125,7 @@ titleStyle2 =
     style
         [ ( "fontSize", "3rem" )
         , ( "paddingTop", "3rem" )
+        , ( "paddingBottom", "1rem" )
         , ( "textTransform", "uppercase" )
         ]
 
@@ -142,4 +154,12 @@ textStyle =
         , ( "width", "90%" )
         , ( "margin", "0 auto" )
         , ( "height", "auto" )
+        ]
+
+
+embedStyle =
+    style
+        [ ( "marginTop", "3rem" )
+        , ( "width", "90%" )
+        , ( "height", "400px" )
         ]
