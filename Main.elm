@@ -128,7 +128,7 @@ ryanPage =
         [ div [ ryanPageStyle ] []
         , div [ titleStyle2 ] [ text "Ryan Wurtz" ]
         , div [ textStyle ] [ text aboutRyan ]
-        , div [ "<iframe width=" 70 % " height=" 70 % " scrolling=\"no\" frameborder=\"no\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/468671&amp;color=55acee&amp;theme_color=55acee&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_playcount=false&amp;show_reposts=false\"></iframe>" ] [ text "MUSIC PLAYER GOES HERE!" ]
+        , div [] [ text "MUSIC PLAYER GOES HERE!" ]
         ]
 
 
